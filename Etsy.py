@@ -50,7 +50,7 @@ def get_cloth(url):
 
         else:
             print '没有这个网页'
-#商品详情页
+#商品详情页地方许自学成才
 def goods_list(url):
     detail_res=gets(url=url)
     if detail_res['issuccess'] !=1:
